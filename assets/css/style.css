@@ -1,0 +1,46 @@
+/* General Elements*/
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%;
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h2{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+	color: white;
+}
+p {
+	color: #25ad38;
+}
+/* Specfic Elements*/
+div.header {
+	background-color: darkorange;
+	width: 30%
+}
+div.instructions {
+	width: 40%;
+	background: lightyellow;
+	height: 350px;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
