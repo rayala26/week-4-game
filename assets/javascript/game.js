@@ -49,7 +49,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal); 
           
         if (userTotal == Random){
-          yay();
+          winner();
         }
         else if ( userTotal > Random){
           loser();
@@ -60,7 +60,7 @@ alert ("You lose!");
     console.log("New userTotal= " + userTotal);
     $('#finalTotal').text(userTotal); 
         if (userTotal == Random){
-          yay();
+          winner();
         }
         else if ( userTotal > Random){
           loser();
@@ -72,7 +72,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal);
 
           if (userTotal == Random){
-          yay();
+          winner();
         }
         else if ( userTotal > Random){
           loser();
@@ -84,7 +84,7 @@ alert ("You lose!");
     $('#finalTotal').text(userTotal); 
       
           if (userTotal == Random){
-          yay();
+          winner();
         }
         else if ( userTotal > Random){
           loser();
